@@ -5,7 +5,8 @@ def main():
     
 
     win = Window(800, 900)
-    Maze(100, 100, 10, 10, 50, 50, win)
+    m = Maze(100, 100, 10, 12, 50, 50, win)
+    m.solve()
     
     win.wait_for_close()
 
